@@ -1,0 +1,226 @@
+diff --git a/config/install/field.storage.paragraph.bp_background.yml b/config/install/field.storage.paragraph.bp_background.yml
+index 648710d..5f806b0 100644
+--- a/config/install/field.storage.paragraph.bp_background.yml
++++ b/config/install/field.storage.paragraph.bp_background.yml
+@@ -10,180 +10,15 @@ entity_type: paragraph
+ type: list_string
+ settings:
+   allowed_values:
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-black-slight'
+-      label: 'Black slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-black-light'
+-      label: 'Black light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-black-strong'
+-      label: 'Black strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-blue-slight'
+-      label: 'Blue slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-blue-light'
+-      label: 'Blue light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-blue-strong'
+-      label: 'Blue strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-bluegrey-slight'
+-      label: 'Bluegrey slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-bluegrey-light'
+-      label: 'Bluegrey light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-bluegrey-strong'
+-      label: 'Bluegrey strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-brown-slight'
+-      label: 'Brown slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-brown-light'
+-      label: 'Brown light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-brown-strong'
+-      label: 'Brown strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-cyan-slight'
+-      label: 'Cyan slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-cyan-light'
+-      label: 'Cyan light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-cyan-strong'
+-      label: 'Cyan strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-green-slight'
+-      label: 'Green slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-green-light'
+-      label: 'Green light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-green-strong'
+-      label: 'Green strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-grey-slight'
+-      label: 'Grey slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-grey-light'
+-      label: 'Grey light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-grey-strong'
+-      label: 'Grey strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-indigo-slight'
+-      label: 'Indigo slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-indigo-light'
+-      label: 'Indigo light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-indigo-strong'
+-      label: 'Indigo strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-lime-slight'
+-      label: 'Lime slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-lime-light'
+-      label: 'Lime light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-lime-strong'
+-      label: 'Lime strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-orange-slight'
+-      label: 'Orange slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-orange-light'
+-      label: 'Orange light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-orange-strong'
+-      label: 'Orange strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-pink-slight'
+-      label: 'Pink slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-pink-light'
+-      label: 'Pink light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-pink-strong'
+-      label: 'Pink strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-purple-slight'
+-      label: 'Purple slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-purple-light'
+-      label: 'Purple light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-purple-strong'
+-      label: 'Purple strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-red-slight'
+-      label: 'Red slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-red-light'
+-      label: 'Red light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-red-strong'
+-      label: 'Red strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-stylish-slight'
+-      label: 'Stylish slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-stylish-light'
+-      label: 'Stylish light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-stylish-strong'
+-      label: 'Stylish strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-teal-slight'
+-      label: 'Teal slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-teal-light'
+-      label: 'Teal light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-teal-strong'
+-      label: 'Teal strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-white-slight'
+-      label: 'White slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-white-light'
+-      label: 'White light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-white-strong'
+-      label: 'White strong'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-yellow-slight'
+-      label: 'Yellow slight'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-yellow-light'
+-      label: 'Yellow light'
+-    -
+-      value: 'paragraph--color paragraph--color--rgba-yellow-strong'
+-      label: 'Yellow strong'
+-    -
+-      value: paragraph--color--transparent
+-      label: Transparent
+     -
+       value: 'paragraph--color paragraph--color--primary'
+       label: 'Brand Primary Color'
+     -
+       value: 'paragraph--color paragraph--color--secondary'
+       label: 'Brand Secondary Color'
+-    -
+-      value: 'paragraph--color paragraph--color--success'
+-      label: 'Brand Success Color'
+     -
+       value: 'paragraph--color paragraph--color--info'
+       label: 'Brand Info Color'
+-    -
+-      value: 'paragraph--color paragraph--color--warning'
+-      label: 'Brand Warning Color'
+-    -
+-      value: 'paragraph--color paragraph--color--danger'
+-      label: 'Brand Danger Color'
+   allowed_values_function: ''
+ module: options
+ locked: false
+diff --git a/config/install/field.storage.paragraph.bp_width.yml b/config/install/field.storage.paragraph.bp_width.yml
+index d811519..5e935b0 100644
+--- a/config/install/field.storage.paragraph.bp_width.yml
++++ b/config/install/field.storage.paragraph.bp_width.yml
+@@ -11,20 +11,26 @@ type: list_string
+ settings:
+   allowed_values:
+     -
+-      value: paragraph--width--tiny
+-      label: Tiny
++      value: 'col-sm-2 paragraph-columns'
++      label: 'Very Tiny - col-sm-2 1/6'
+     -
+-      value: paragraph--width--narrow
+-      label: Narrow
++      value: 'col-sm-3 paragraph-columns'
++      label: 'Tiny - col-sm-3 1/4'      
+     -
+-      value: paragraph--width--medium
+-      label: Medium
++      value: 'col-sm-4 paragraph-columns'
++      label: 'Narrow - col-sm-4 1/3'
+     -
+-      value: paragraph--width--wide
+-      label: Wide
++      value: 'col-sm-6 paragraph-columns'
++      label: 'Medium - col-sm-6 1/2'
+     -
+-      value: paragraph--width--full
+-      label: 'Full Screen'
++      value: 'col-sm-8 paragraph-columns'
++      label: 'Wide - col-sm-8 2/3'
++    -
++      value: 'col-sm-9 paragraph-columns'
++      label: 'Very Wide - col-sm-9 3/4'
++    -
++      value: 'col-sm-12 paragraph-columns'
++      label: 'Full - col-sm-12'      
+   allowed_values_function: ''
+ module: options
+ locked: false
